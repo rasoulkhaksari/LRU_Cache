@@ -17,7 +17,7 @@ func main() {
 	LRUcache_v2.Put(1, 10)
 	LRUcache_v2.Put(2, 20)
 	LRUcache_v2.Put(3, 30)
-	LRUcache_v2.Put(1, 110)
-	fmt.Println(LRUcache_v1.Get(1))
+	LRUcache_v2.Put(1, 220)
+	fmt.Println(LRUcache_v2.Get(1))
 
 }
